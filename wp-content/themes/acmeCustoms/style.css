@@ -1,0 +1,54 @@
+/*
+Theme Name: FindlayTheme
+Theme URI: http://wordpress.org/themes/FindlayTheme
+Author: Findlay
+Author URI: mustbethebeard.com
+Description: This is my first theme for class will be used to test.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: test, new, green, white
+Text Domain: findlaytheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+body { 
+     padding-top: 0px; 
+     padding-bottom: 40px; 
+}
+
+#wpadminbar {
+ z-index: 0;
+}
+
+.hero-unit {
+  	text-align: center;
+ 
+
+}
+
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+}
+
+}
+
+@media (max-width: 765px) {
+	.span4 {
+	display:none;
+}
+
+}
+
+
